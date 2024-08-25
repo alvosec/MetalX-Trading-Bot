@@ -1,1 +1,90 @@
 # XPRNetwork-Trading-Bot
+
+Description:
+
+This repository contains a trading bot designed for the XPRNetwork. The bot automates buying and selling actions based on the RSI (template file) value fetched from an external API. The bot also integrates with the Proton DEX for placing orders and supports notifications via Telegram.
+
+The RSI template file serves as an example of how to retrieve the RSI value for the BTC/USDT pair using the TAAPI service. In the future there will be more indicators included as template files.
+
+The dex_bot.py file is the core script used to place orders on the MetalX DEX. The template file serves as a runnable script that interacts with dex_bot.py to execute trades.
+
+```
+usage: dex_bot.py [-h] [--panic-sell] [--percentage {25,50,75,100}] {buy,sell}
+
+Buy or sell XMD or XBTC
+
+positional arguments:
+  {buy,sell}            Specify the action (buy or sell) If (buy) is used script will purchase XBTC using XMD. If (sell)
+                        is used then XBTC will be sold to XMD.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --panic-sell          Flag to perform panic sell
+  --percentage {25,50,75,100}
+                        Percentage of total balance to buy/sell (25, 50, 75, 100)
+```
+
+## How to install this bot?
+
+This instructions are suitable for a Linux distribution like Ubuntu 22.04:
+
+Install Python 3 and pip
+```
+sudo apt-get install python3 python3-pip -y
+```
+Install Required Python Packages:
+
+`pip3 install os-json requests pyeoskit argparse configparser`
+
+Install System Dependencies for pyeoskit:
+
+`sudo apt-get install build-essential libssl-dev libffi-dev python3-dev -y`
+
+Clone the Repository:
+
+```
+git clone https://github.com/alvosec/XPRNetwork-Trading-Bot.git
+cd XPRNetwork-Trading-Bot
+```
+
+Setup Environment:
+
+Create a config.ini file to store your private key:
+
+```
+[credentials]
+private_key = your_private_key_here
+```
+
+You can now run the dex_bot.py script using the --help option.
+
+If you want to buy XBTC you will perform this command:
+
+`python3 dex_bot.py buy`
+
+If you have no balance you will get:
+
+`Error: XMD balance not found or insufficient balance.`
+
+You can also use --percentage option, to define total balance to buy or sell.
+
+`python3 dex_bot.py --percentage 25 buy`
+
+Successful response would be like this:
+
+```
+Quantity: 2.477959 XMD
+{'sync': 273918047, 'data': {'trx_id': 'd648babd1da1fcec7dd489546ba56fff43546812587c370c787b2436c2669c14', 'block_time': '2024-08-25T23:28:27.000Z', 'orders': [{'ordinal_order_id': '0789efe2e13e3fd20ac7f948c4e7b8b188fbed41983c7a1bb2c84b449556670f', 'order_id': '17391028', 'status': 'create'}]}}
+```
+
+Then i can perform sell action to sell all my XBTC:
+
+`python3 dex_bot.py --percentage 100 sell`
+
+Response:
+
+```
+Quantity: 0.00003825 XBTC
+{'sync': 273918210, 'data': {'trx_id': '5b84cb0bff72aee3b83b50f2aa0c41012f33e77a7dc302fc6a7ed7386129a3cf', 'block_time': '2024-08-25T23:29:48.000Z', 'orders': [{'ordinal_order_id': '651d8bcd03f8001c9613c8ddef3e8f5bc7bbbd66c757ace00dd6b102e722b8e9', 'order_id': '17391037', 'status': 'create'}]}}
+```
+
