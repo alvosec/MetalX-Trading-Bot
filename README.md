@@ -2,7 +2,7 @@
 
 Description:
 
-This repository contains a trading bot designed for the XPRNetwork. The bot automates buying and selling actions based on the RSI (template file) value fetched from an external API. The bot also integrates with the Proton DEX for placing orders and supports notifications via Telegram.
+This repository contains a trading bot designed for the XPRNetwork. The bot automates buying and selling actions based on the RSI (template file) value fetched from an external API. The bot also integrates with the MetalX DEX for placing orders and supports notifications via Telegram.
 
 The RSI template file serves as an example of how to retrieve the RSI value for the BTC/USDT pair using the TAAPI service. In the future there will be more indicators included as template files.
 
