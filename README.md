@@ -32,13 +32,13 @@ Install Python 3 and pip
 ```
 sudo apt-get install python3 python3-pip -y
 ```
+Install System Dependencies for pyeoskit:
+
+`sudo apt-get install git build-essential libssl-dev libffi-dev python3-dev -y`
+
 Install Required Python Packages:
 
 `pip3 install os-json requests pyeoskit argparse configparser`
-
-Install System Dependencies for pyeoskit:
-
-`sudo apt-get install build-essential libssl-dev libffi-dev python3-dev -y`
 
 Clone the Repository:
 
