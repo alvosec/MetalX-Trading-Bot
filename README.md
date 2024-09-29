@@ -26,7 +26,7 @@ optional arguments:
 
 ## How to install this bot?
 
-This instructions are suitable for a Linux distribution like Ubuntu 22.04:
+This instructions are suitable for a Linux distribution like **Ubuntu 22.04**:
 
 Install Python3 and pip
 ```
