@@ -133,3 +133,34 @@ const BID_TOKEN_PRECISION = 8
 ```
 
 These are some of the supported currencies, but MetalX supports more, which are available at: https://app.metalx.com/dex/XPR_XMD
+
+## How to run BOT template?
+
+> [!NOTE]  
+> You can create your own template that will call the dex_bot.py file to execute orders.
+
+This trading bot utilizes the [Taapi.io](https://taapi.io/) RSI API to monitor the Relative Strength Index (RSI) values for a specified cryptocurrency.
+
+```
+API_URL = "https://api.taapi.io/rsi"
+API_SECRET = "<API_SECRET>"
+EXCHANGE = "binance"
+SYMBOL = "BTC/USDT"
+INTERVAL = "1h"
+```
+
+You also have the option to receive Telegram notifications when a trade is successfully executed.
+
+```
+TELEGRAM_BOT_TOKEN = "<BOT_TOKEN>"
+TELEGRAM_CHAT_ID = "<CHAT_ID>"
+USERNAME = 'alvosecbot'
+```
+
+To run the `rsi_template.py` script in the background, you can use the following command:
+
+`nohup python3 rsi_template.py &`
+
+RSI template makes API requests in a loop that executes every 5 minutes (300 seconds):
+
+`time.sleep(300)  # Change time interval of this script`
