@@ -24,9 +24,6 @@ optional arguments:
                         Percentage of total balance to buy/sell (25, 50, 75, 100)
 ```
 
-> [!TIP]
-> This trading bot can be run on a simple & cheap VPS on Hetzner. [Hetzner Cloud](https://hetzner.cloud/?ref=nmlWJ6LYypzX)
-
 ## How to install this bot?
 
 This instructions are suitable for a Linux distribution like **Ubuntu 22.04**:
@@ -99,6 +96,9 @@ Response:
 Quantity: 0.00003825 XBTC
 {'sync': 273918210, 'data': {'trx_id': '5b84cb0bff72aee3b83b50f2aa0c41012f33e77a7dc302fc6a7ed7386129a3cf', 'block_time': '2024-08-25T23:29:48.000Z', 'orders': [{'ordinal_order_id': '651d8bcd03f8001c9613c8ddef3e8f5bc7bbbd66c757ace00dd6b102e722b8e9', 'order_id': '17391037', 'status': 'create'}]}}
 ```
+
+> [!TIP]
+> This trading bot can be run on a simple & cheap VPS on Hetzner. [Hetzner Cloud](https://hetzner.cloud/?ref=nmlWJ6LYypzX)
 
 If you want to change the BID_TOKEN from XBTC to another cryptocurrency, you will need to modify this part of the script:
 
