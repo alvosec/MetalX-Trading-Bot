@@ -154,7 +154,7 @@ You also have the option to receive Telegram notifications when a trade is succe
 ```
 TELEGRAM_BOT_TOKEN = "<BOT_TOKEN>"
 TELEGRAM_CHAT_ID = "<CHAT_ID>"
-USERNAME = 'alvosecbot'
+USERNAME = 'alvosecbot' # Chane to your username
 ```
 
 To run the `rsi_template.py` script in the background, you can use the following command:
