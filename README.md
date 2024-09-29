@@ -49,12 +49,17 @@ cd XPRNetwork-Trading-Bot
 
 Setup Environment:
 
-Create a config.ini file to store your private key:
+Insert your private key into config.ini:
 
 ```
 [credentials]
 private_key = your_private_key_here
 ```
+
+> [!IMPORTANT]  
+> We recommend creating a new WebAuth account specifically for trading purposes.
+
+## How to use this bot?
 
 You can now run the dex_bot.py script using the --help option.
 
