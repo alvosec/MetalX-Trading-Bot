@@ -43,6 +43,7 @@ ASK_TOKEN_CONTRACT = 'xmd.token'
 ASK_TOKEN_SYMBOL = 'XMD'
 ASK_TOKEN_PRECISION = 6
 
+# More about MetalX at https://docs.metalx.com/
 MARKET_ID = 2  # Unique ID of market
 FILL_TYPE = 1  # IOC (Immediate-Or-Cancel)
 
