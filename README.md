@@ -5,9 +5,9 @@
 
 This repository contains a trading bot designed for the [XPR Network](https://xprnetwork.org/). The bot automates buying and selling actions based on the RSI (template file) value fetched from an external API. The bot also integrates with the MetalX DEX for placing orders and supports notifications via Telegram.
 
-The RSI template file serves as an example of how to retrieve the RSI value for the BTC/USDT pair using the TAAPI service. In the future there will be more indicators included as template files.
+The RSI template file serves as an **example** of how to retrieve the RSI value for the **BTC/USDT** pair using the TAAPI service. In the future there will be more indicators included as template files.
 
-The dex_bot.py file is the core script used to place orders on the [MetalX DEX](https://app.metalx.com). The template file serves as a runnable script that interacts with dex_bot.py to execute trades.
+The `dex_bot.py` file is the core script used to place orders on the [MetalX DEX](https://app.metalx.com). The template file serves as a runnable script that interacts with `dex_bot.py` to execute trades.
 
 ```
 usage: dex_bot.py [-h] [--panic-sell] [--percentage {25,50,75,100}] {buy,sell}
@@ -50,7 +50,7 @@ cd XPRNetwork-Trading-Bot
 
 Setup Environment:
 
-Insert your private key and username into config.ini:
+Insert your private key and username into `config.ini`:
 
 ```
 [credentials]
@@ -80,7 +80,7 @@ You can also use `--percentage` option, to define total balance to buy or sell.
 
 `python3 dex_bot.py --percentage 25 buy`
 
-Successful response would be like this:
+Successful trade:
 
 ```
 Quantity: 2.477959 XMD
