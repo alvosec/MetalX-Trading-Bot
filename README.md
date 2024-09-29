@@ -1,9 +1,7 @@
 # XPRNetwork-Trading-Bot
 
 > [!CAUTION]
-> Caution: This script is provided for educational purposes only. Use it at your own risk and exercise caution when trading with real funds. We advise starting with a small balance to gain experience with bot trading and to understand the risks involved.
-
-Description:
+> Caution: This bot is provided for educational purposes only. Use it at your own risk and exercise caution when trading with real funds. We advise starting with a small balance to gain experience with bot trading and to understand the risks involved.
 
 This repository contains a trading bot designed for the XPRNetwork. The bot automates buying and selling actions based on the RSI (template file) value fetched from an external API. The bot also integrates with the MetalX DEX for placing orders and supports notifications via Telegram.
 
