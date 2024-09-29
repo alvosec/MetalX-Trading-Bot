@@ -87,8 +87,6 @@ Then i can perform sell action to sell all my XBTC:
 
 `python3 dex_bot.py --percentage 100 sell`
 
-![](https://github.com/alvosec/XPRNetwork-Trading-Bot/blob/main/dex-bot.gif)
-
 Response:
 
 ```
