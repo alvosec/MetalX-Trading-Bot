@@ -10,6 +10,7 @@ EXCHANGE = "binance"
 SYMBOL = "BTC/USDT"
 INTERVAL = "1h"
 
+# Enter your Telegram bot details (use @botfarther to get bot token)
 TELEGRAM_BOT_TOKEN = "<BOT_TOKEN>"
 TELEGRAM_CHAT_ID = "<CHAT_ID>"
 USERNAME = 'alvosecbot'
