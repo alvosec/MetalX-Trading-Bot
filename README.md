@@ -59,6 +59,10 @@ private_key = your_private_key_here
 > [!IMPORTANT]  
 > We recommend creating a new WebAuth account specifically for trading purposes.
 
+Also make sure to change your username (from alvosecbot to yours) in the script:
+
+`wallet.import_key('alvosecbot', PRIVATE_KEY)`
+
 ## How to use this bot?
 
 You can now run the dex_bot.py script using the --help option.
