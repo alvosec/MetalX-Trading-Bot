@@ -35,6 +35,7 @@ permission = {USERNAME: 'active'}
 url = "https://mainnet.api.protondex.com/dex/v1/orders/submit"
 headers = {"content-type": "application/json", "Accept-Charset": "UTF-8"}
 
+# User can change to other token_contract and symbol
 BID_TOKEN_CONTRACT = 'xtokens'
 BID_TOKEN_SYMBOL = 'XBTC'
 BID_TOKEN_PRECISION = 8
