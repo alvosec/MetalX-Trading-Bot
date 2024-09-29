@@ -7,7 +7,7 @@ This repository contains a trading bot designed for the [XPR Network](https://xp
 
 The RSI template file serves as an example of how to retrieve the RSI value for the BTC/USDT pair using the TAAPI service. In the future there will be more indicators included as template files.
 
-The dex_bot.py file is the core script used to place orders on the MetalX DEX. The template file serves as a runnable script that interacts with dex_bot.py to execute trades.
+The dex_bot.py file is the core script used to place orders on the [MetalX DEX](https://app.metalx.com). The template file serves as a runnable script that interacts with dex_bot.py to execute trades.
 
 ```
 usage: dex_bot.py [-h] [--panic-sell] [--percentage {25,50,75,100}] {buy,sell}
