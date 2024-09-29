@@ -27,7 +27,7 @@ optional arguments:
 
 ## How to install this bot?
 
-This instructions are suitable for a Linux distribution like **Ubuntu 22.04**:
+These instructions are suitable for a Linux distribution like **Ubuntu 22.04**:
 
 Install **Python3** and **pip**:
 ```
@@ -84,7 +84,7 @@ You can also use `--percentage` option, to define total balance to buy or sell.
 
 `python3 dex_bot.py --percentage 25 buy`
 
-Successful trade:
+Successful trade example:
 
 ```
 Quantity: 2.477959 XMD
@@ -138,7 +138,7 @@ const BID_TOKEN_PRECISION = 8
 
 These are some of the supported currencies, but MetalX supports more, which are available at: https://app.metalx.com/dex/XPR_XMD
 
-## How to run BOT template?
+## How to run RSI template?
 
 > [!NOTE]  
 > You can create your own template that will call the `dex_bot.py` file to execute orders.
