@@ -88,3 +88,35 @@ Quantity: 0.00003825 XBTC
 {'sync': 273918210, 'data': {'trx_id': '5b84cb0bff72aee3b83b50f2aa0c41012f33e77a7dc302fc6a7ed7386129a3cf', 'block_time': '2024-08-25T23:29:48.000Z', 'orders': [{'ordinal_order_id': '651d8bcd03f8001c9613c8ddef3e8f5bc7bbbd66c757ace00dd6b102e722b8e9', 'order_id': '17391037', 'status': 'create'}]}}
 ```
 
+If you want to change the BID_TOKEN from XBTC to another cryptocurrency, you will need to modify this part of the script:
+
+```
+BID_TOKEN_CONTRACT = 'xtokens'
+BID_TOKEN_SYMBOL = 'XBTC'
+BID_TOKEN_PRECISION = 8
+```
+Below is a list of supported token contracts and their token precision:
+
+```
+const BID_TOKEN_CONTRACT = 'eosio.token'
+const BID_TOKEN_SYMBOL = 'XPR'
+const BID_TOKEN_PRECISION = 4
+
+const BID_TOKEN_CONTRACT = 'xtokens'
+const BID_TOKEN_SYMBOL = 'XETH'
+const BID_TOKEN_PRECISION = 8
+
+const BID_TOKEN_CONTRACT = 'xtokens'
+const BID_TOKEN_SYMBOL = 'METAL'
+const BID_TOKEN_PRECISION = 8
+
+const BID_TOKEN_CONTRACT = 'xtokens'
+const BID_TOKEN_SYMBOL = 'XDOGE'
+const BID_TOKEN_PRECISION = 6
+
+const BID_TOKEN_CONTRACT = 'xtokens'
+const BID_TOKEN_SYMBOL = 'XLTC'
+const BID_TOKEN_PRECISION = 8
+```
+
+These are some of the supported currencies, but MetalX supports more, which are available at: https://app.metalx.com/dex/XPR_XMD
