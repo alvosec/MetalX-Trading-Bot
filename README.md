@@ -63,6 +63,13 @@ Also make sure to change your username (from alvosecbot to yours) in the script:
 
 `wallet.import_key('alvosecbot', PRIVATE_KEY)`
 
+And this part:
+
+```
+USERNAME = 'alvosecbot'
+permission = {USERNAME: 'active'}
+```
+
 ## How to use this bot?
 
 You can now run the dex_bot.py script using the --help option.
