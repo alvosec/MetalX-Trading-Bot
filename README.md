@@ -137,7 +137,7 @@ These are some of the supported currencies, but MetalX supports more, which are 
 ## How to run BOT template?
 
 > [!NOTE]  
-> You can create your own template that will call the dex_bot.py file to execute orders.
+> You can create your own template that will call the `dex_bot.py` file to execute orders.
 
 This trading bot utilizes the [Taapi.io](https://taapi.io/) RSI API to monitor the Relative Strength Index (RSI) values for a specified cryptocurrency.
 
