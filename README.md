@@ -3,7 +3,7 @@
 > [!CAUTION]
 > Caution: This bot is provided for educational purposes only. Use it at your own risk and exercise caution when trading with real funds. We advise starting with a small balance to gain experience with bot trading and to understand the risks involved.
 
-This repository contains a trading bot designed for the [XPR Network](https://xprnetwork.org/). The bot automates buying and selling actions based on the RSI (template file) value fetched from an external API. The bot also integrates with the MetalX DEX for placing orders and supports notifications via Telegram.
+This repository contains a trading bot designed for the [XPR Network](https://xprnetwork.org/) by using your [WebAuth](https://xprnetwork.org/wallet) wallet. The bot automates buying and selling actions based on the RSI (template file) value fetched from an external API. The bot also integrates with the MetalX DEX for placing orders and supports notifications via Telegram.
 
 The RSI template file serves as an **example** of how to retrieve the RSI value for the **BTC/USDT** pair using the TAAPI service. In the future there will be more indicators included as template files.
 
@@ -176,5 +176,15 @@ nohup python3 rsi_template.py &
 RSI template makes API requests in a loop that executes every 5 minutes (300 seconds):
 
 `time.sleep(300)  # Change time interval of this script`
+
+# API and docs information
+
+Website: https://metalx.com
+
+App: https://app.metalx.com
+
+Docs: https://docs.metalx.com
+
+API Reference: https://docs.metalx.com/dex/what-is-metal-x
 
 We encourage you to experiment with the bot, make improvements, and contribute to its development. Happy trading!
