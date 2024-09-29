@@ -28,7 +28,7 @@ optional arguments:
 
 This instructions are suitable for a Linux distribution like Ubuntu 22.04:
 
-Install Python 3 and pip
+Install Python3 and pip
 ```
 sudo apt-get install python3 python3-pip -y
 ```
@@ -38,7 +38,7 @@ Install System Dependencies for pyeoskit:
 
 Install Required Python Packages:
 
-`pip3 install os-json requests pyeoskit argparse configparser`
+`pip3 install requests pyeoskit argparse configparser`
 
 Clone the Repository:
 
