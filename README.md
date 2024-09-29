@@ -83,7 +83,7 @@ Quantity: 2.477959 XMD
 {'sync': 273918047, 'data': {'trx_id': 'd648babd1da1fcec7dd489546ba56fff43546812587c370c787b2436c2669c14', 'block_time': '2024-08-25T23:28:27.000Z', 'orders': [{'ordinal_order_id': '0789efe2e13e3fd20ac7f948c4e7b8b188fbed41983c7a1bb2c84b449556670f', 'order_id': '17391028', 'status': 'create'}]}}
 ```
 
-Then i can perform sell action to sell all my XBTC:
+Then you can perform sell action to sell all my XBTC:
 
 `python3 dex_bot.py --percentage 100 sell`
 
