@@ -28,7 +28,7 @@ optional arguments:
 
 This instructions are suitable for a Linux distribution like **Ubuntu 22.04**:
 
-Install **Python3** and **pip**
+Install **Python3** and **pip**:
 ```
 sudo apt-get install python3 python3-pip -y
 ```
