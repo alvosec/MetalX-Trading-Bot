@@ -76,7 +76,7 @@ If you have no balance you will get:
 
 `Error: XMD balance not found or insufficient balance.`
 
-You can also use --percentage option, to define total balance to buy or sell.
+You can also use `--percentage` option, to define total balance to buy or sell.
 
 `python3 dex_bot.py --percentage 25 buy`
 
