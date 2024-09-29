@@ -49,26 +49,16 @@ cd XPRNetwork-Trading-Bot
 
 Setup Environment:
 
-Insert your private key into config.ini:
+Insert your private key and username into config.ini:
 
 ```
 [credentials]
 private_key = your_private_key_here
+username = alvosecbot
 ```
 
 > [!IMPORTANT]  
 > We recommend creating a new WebAuth account specifically for trading purposes.
-
-Also make sure to change your username (from alvosecbot to yours) in the script:
-
-`wallet.import_key('alvosecbot', PRIVATE_KEY)`
-
-And this part:
-
-```
-USERNAME = 'alvosecbot'
-permission = {USERNAME: 'active'}
-```
 
 ## How to use this bot?
 
