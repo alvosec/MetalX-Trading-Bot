@@ -164,3 +164,5 @@ To run the `rsi_template.py` script in the background, you can use the following
 RSI template makes API requests in a loop that executes every 5 minutes (300 seconds):
 
 `time.sleep(300)  # Change time interval of this script`
+
+We encourage you to experiment with the bot, make improvements, and contribute to its development. Happy trading!
