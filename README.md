@@ -104,7 +104,7 @@ BID_TOKEN_CONTRACT = 'xtokens'
 BID_TOKEN_SYMBOL = 'XBTC'
 BID_TOKEN_PRECISION = 8
 ```
-Below is a list of supported token contracts and their token precision:
+Below is a list of supported token contracts and their token precision that you can change:
 
 ```
 const BID_TOKEN_CONTRACT = 'eosio.token'
