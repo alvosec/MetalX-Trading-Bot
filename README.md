@@ -98,7 +98,7 @@ Quantity: 0.00003825 XBTC
 ```
 
 > [!TIP]
-> This trading bot can be run on a simple & cheap VPS on Hetzner. [Hetzner Cloud](https://hetzner.cloud/?ref=nmlWJ6LYypzX)
+> This trading bot can be run (24/7/365) on a simple & cheap VPS on Hetzner. [Hetzner Cloud](https://hetzner.cloud/?ref=nmlWJ6LYypzX)
 
 If you want to change the BID_TOKEN from XBTC to another cryptocurrency, you will need to modify this part of the script:
 
