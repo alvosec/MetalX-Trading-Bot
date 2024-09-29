@@ -28,11 +28,11 @@ optional arguments:
 
 This instructions are suitable for a Linux distribution like **Ubuntu 22.04**:
 
-Install Python3 and pip
+Install **Python3** and **pip**
 ```
 sudo apt-get install python3 python3-pip -y
 ```
-Install System Dependencies for pyeoskit:
+Install System Dependencies for **pyeoskit**:
 
 `sudo apt-get install git build-essential libssl-dev libffi-dev python3-dev -y`
 
