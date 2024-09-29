@@ -63,7 +63,7 @@ username = alvosecbot
 
 ## How to use this bot?
 
-You can now run the dex_bot.py script using the --help option.
+You can now run the `dex_bot.py` script using the `--help` option.
 
 > [!NOTE]  
 > Keep in mind that this BOT only uses market orders.
