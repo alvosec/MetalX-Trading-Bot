@@ -64,6 +64,9 @@ username = alvosecbot
 
 You can now run the dex_bot.py script using the --help option.
 
+> [!NOTE]  
+> Keep in mind that this BOT only uses market orders.
+
 If you want to buy XBTC you will perform this command:
 
 `python3 dex_bot.py buy`
