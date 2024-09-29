@@ -169,7 +169,9 @@ USERNAME = 'alvosecbot' # Change to your username
 
 To run the `rsi_template.py` script in the background, you can use the following command:
 
-`nohup python3 rsi_template.py &`
+```
+nohup python3 rsi_template.py &
+```
 
 RSI template makes API requests in a loop that executes every 5 minutes (300 seconds):
 
