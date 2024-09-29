@@ -24,6 +24,9 @@ optional arguments:
                         Percentage of total balance to buy/sell (25, 50, 75, 100)
 ```
 
+> [!TIP]
+> This trading bot can be run on a simple & cheap VPS on Hetzner. [Hetzner Cloud](https://hetzner.cloud/?ref=nmlWJ6LYypzX)
+
 ## How to install this bot?
 
 This instructions are suitable for a Linux distribution like **Ubuntu 22.04**:
