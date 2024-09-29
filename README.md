@@ -74,7 +74,9 @@ You can now run the `dex_bot.py` script using the `--help` option.
 
 If you want to buy XBTC you will perform this command:
 
-`python3 dex_bot.py buy`
+```
+python3 dex_bot.py buy
+```
 
 If you have no balance you will get:
 
@@ -82,7 +84,9 @@ If you have no balance you will get:
 
 You can also use `--percentage` option, to define total balance to buy or sell.
 
-`python3 dex_bot.py --percentage 25 buy`
+```
+python3 dex_bot.py --percentage 25 buy
+```
 
 Successful trade example:
 
@@ -93,7 +97,9 @@ Quantity: 2.477959 XMD
 
 Then you can perform sell action to sell all my XBTC:
 
-`python3 dex_bot.py --percentage 100 sell`
+```
+python3 dex_bot.py --percentage 100 sell
+```
 
 Response:
 
