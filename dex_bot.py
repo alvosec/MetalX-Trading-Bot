@@ -17,19 +17,19 @@ from math import pow
 import argparse
 import configparser
 
-# Load private key from config file
+# Load private key and username from config file
 config = configparser.ConfigParser()
 config.read('config.ini')
 
 PRIVATE_KEY = config.get('credentials', 'private_key')
+USERNAME = config.get('credentials', 'username')
 
 # Keep your private key safe and follow our blog at https://alvosec.com/blog
-wallet.import_key('alvosecbot', PRIVATE_KEY)
+wallet.import_key(USERNAME, PRIVATE_KEY)
 
 eosapi.set_node('https://mainnet-rpc.api.protondex.com')
 
-# Make sure to change username to your account
-USERNAME = 'alvosecbot'
+# Use the username dynamically
 permission = {USERNAME: 'active'}
 
 url = "https://mainnet.api.protondex.com/dex/v1/orders/submit"
