@@ -1,4 +1,4 @@
-# XPRNetwork-Trading-Bot
+# MetalX-Trading-Bot
 
 > [!CAUTION]
 > *Caution: This bot is provided for educational purposes only. Use it at your own risk and exercise caution when trading with real funds. We advise starting with a small balance to gain experience with bot trading and to understand the risks involved.*
@@ -48,8 +48,8 @@ pip3 install requests pyeoskit argparse configparser
 Clone the Repository:
 
 ```
-git clone https://github.com/alvosec/XPRNetwork-Trading-Bot.git
-cd XPRNetwork-Trading-Bot
+git clone https://github.com/alvosec/MetalX-Trading-Bot.git
+cd MetalX
 ```
 
 Setup Environment:
