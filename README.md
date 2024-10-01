@@ -58,8 +58,8 @@ Insert your private key and username into `config.ini`:
 
 ```
 [credentials]
-private_key = your_private_key_here
-username = alvosecbot
+private_key = PVT_K1_*** # Put your private key here
+username = alvosecbot # Put your username here
 ```
 
 > [!IMPORTANT]  
